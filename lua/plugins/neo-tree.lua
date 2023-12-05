@@ -1,5 +1,7 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
+  lazy = true,
+  priority = 1000,
   opts = {
     filesystem = {
       filtered_items = {
