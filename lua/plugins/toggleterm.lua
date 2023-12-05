@@ -1,11 +1,12 @@
 return {
-  "akinsno/toggleterm.nvim",
+  "akinsho/toggleterm.nvim",
   version = "*",
   opts = {
-    direction = "float",
+    direction = "horizontal",
     open_mapping = [[<c-`>]],
+    close_mapping = [[<c-->]],
     start_in_insert = true,
-    shell = vim.o.shell,
+    shell = "bash",
   },
   config = true,
 }
