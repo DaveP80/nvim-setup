@@ -14,6 +14,7 @@ return {
         "gitignore",
         "javascript",
         "typescript",
+        "asm",
         "regex",
         "json",
         "yaml",
